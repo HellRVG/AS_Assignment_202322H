@@ -85,7 +85,7 @@
                     <asp:Label ID="lbl_ccno" runat="server" Text="Credit Card No."></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:TextBox ID="tb_ccno" runat="server" Height="32px" Width="281px"></asp:TextBox>
+                    <asp:TextBox ID="tb_ccno" runat="server" Height="32px" Width="281px" placeholder="E.g. 1234 5678 9012 3456"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -101,7 +101,7 @@
                     <asp:Label ID="lbl_expdate" runat="server" Text="Expiry date"></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:TextBox ID="tb_expdate" runat="server" Height="32px" Width="281px"></asp:TextBox>
+                    <asp:TextBox ID="tb_expdate" runat="server" Height="32px" Width="281px" placeholder="MM/YY"></asp:TextBox>
                 </td>
             </tr>
             <tr><td></td></tr>
@@ -131,7 +131,7 @@
         <asp:Label ID="lbl_dob" runat="server" Text="Date of Birth"></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:TextBox ID="tb_dob" runat="server" Height="32px" Width="281px"></asp:TextBox>
+                    <asp:TextBox ID="tb_dob" runat="server" Height="32px" Width="281px" placeholder="DD/MM/YY"></asp:TextBox>
                 </td>
             </tr>
             <tr>
