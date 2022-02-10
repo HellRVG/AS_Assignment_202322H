@@ -119,8 +119,8 @@
         <asp:Label ID="lbl_pwd" runat="server" Text="Password"></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <%-- <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:validate()" TextMode="Password"></asp:TextBox> --%>
-                    <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px"></asp:TextBox>
+                    <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:validate()" TextMode="Password"></asp:TextBox>
+                    <%-- <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px"></asp:TextBox> --%>
                 </td>
                 <td>
                     <asp:Label ID="lbl_pwdchecker" runat="server" Text=" "></asp:Label>
